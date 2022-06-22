@@ -10,6 +10,7 @@
 		0349AB952F5BCA9523FF82D2 /* Pods_StrAIberryHomeTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFDBA9E3EFFB594932A9375 /* Pods_StrAIberryHomeTask.framework */; };
 		83184B225D07B416F7EA63F0 /* Pods_StrAIberryHomeTask_StrAIberryHomeTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61EC56890BE7B40947D1429 /* Pods_StrAIberryHomeTask_StrAIberryHomeTaskUITests.framework */; };
 		8CF03AB3BF268C6F9322FF05 /* Pods_StrAIberryHomeTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0C08B1CECFEBF3F7033146 /* Pods_StrAIberryHomeTaskTests.framework */; };
+		E00582842863C16300DB1637 /* CheckResponseTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00582832863C16300DB1637 /* CheckResponseTestCases.swift */; };
 		E051E8C7285A30A1007697C0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E051E8C6285A30A1007697C0 /* Alamofire.framework */; };
 		E0691B06285A13E500D5937C /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0691B05285A13E500D5937C /* PhotosViewModel.swift */; };
 		E0691B08285A19CD00D5937C /* ServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0691B07285A19CD00D5937C /* ServiceApi.swift */; };
@@ -23,7 +24,7 @@
 		E0827E012857D56A0014991A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0827DFF2857D56A0014991A /* Main.storyboard */; };
 		E0827E032857D56D0014991A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0827E022857D56D0014991A /* Assets.xcassets */; };
 		E0827E062857D56D0014991A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0827E042857D56D0014991A /* LaunchScreen.storyboard */; };
-		E0827E112857D56E0014991A /* StrAIberryHomeTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827E102857D56E0014991A /* StrAIberryHomeTaskTests.swift */; };
+		E0827E112857D56E0014991A /* PhotosViewModelTestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827E102857D56E0014991A /* PhotosViewModelTestCases.swift */; };
 		E0827E1B2857D56E0014991A /* StrAIberryHomeTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827E1A2857D56E0014991A /* StrAIberryHomeTaskUITests.swift */; };
 		E0827E1D2857D56E0014991A /* StrAIberryHomeTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827E1C2857D56E0014991A /* StrAIberryHomeTaskUITestsLaunchTests.swift */; };
 		E0827E332857DA640014991A /* ServiceValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827E322857DA640014991A /* ServiceValidator.swift */; };
@@ -66,6 +67,7 @@
 		9F1FB341969A5757BB6D269F /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B18EB5C7F5A7C6E8D67E3510 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE5E9C8C0F5B98B1FFB3E2C2 /* Pods-StrAIberryHomeTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrAIberryHomeTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-StrAIberryHomeTaskTests/Pods-StrAIberryHomeTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E00582832863C16300DB1637 /* CheckResponseTestCases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckResponseTestCases.swift; sourceTree = "<group>"; };
 		E051E8C6285A30A1007697C0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0691B05285A13E500D5937C /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
 		E0691B07285A19CD00D5937C /* ServiceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceApi.swift; sourceTree = "<group>"; };
@@ -82,7 +84,7 @@
 		E0827E052857D56D0014991A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0827E072857D56D0014991A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0827E0C2857D56E0014991A /* StrAIberryHomeTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrAIberryHomeTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0827E102857D56E0014991A /* StrAIberryHomeTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrAIberryHomeTaskTests.swift; sourceTree = "<group>"; };
+		E0827E102857D56E0014991A /* PhotosViewModelTestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModelTestCases.swift; sourceTree = "<group>"; };
 		E0827E162857D56E0014991A /* StrAIberryHomeTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrAIberryHomeTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0827E1A2857D56E0014991A /* StrAIberryHomeTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrAIberryHomeTaskUITests.swift; sourceTree = "<group>"; };
 		E0827E1C2857D56E0014991A /* StrAIberryHomeTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrAIberryHomeTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -195,7 +197,8 @@
 		E0827E0F2857D56E0014991A /* StrAIberryHomeTaskTests */ = {
 			isa = PBXGroup;
 			children = (
-				E0827E102857D56E0014991A /* StrAIberryHomeTaskTests.swift */,
+				E00582832863C16300DB1637 /* CheckResponseTestCases.swift */,
+				E0827E102857D56E0014991A /* PhotosViewModelTestCases.swift */,
 			);
 			path = StrAIberryHomeTaskTests;
 			sourceTree = "<group>";
@@ -588,7 +591,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0827E112857D56E0014991A /* StrAIberryHomeTaskTests.swift in Sources */,
+				E0827E112857D56E0014991A /* PhotosViewModelTestCases.swift in Sources */,
+				E00582842863C16300DB1637 /* CheckResponseTestCases.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

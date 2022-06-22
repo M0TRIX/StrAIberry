@@ -1,0 +1,6 @@
+framework module Pods_StrAIberryHomeTask_StrAIberryHomeTaskUITests {
+  umbrella header "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

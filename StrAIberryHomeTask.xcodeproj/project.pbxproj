@@ -1,0 +1,935 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0349AB952F5BCA9523FF82D2 /* Pods_StrAIberryHomeTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EFDBA9E3EFFB594932A9375 /* Pods_StrAIberryHomeTask.framework */; };
+		83184B225D07B416F7EA63F0 /* Pods_StrAIberryHomeTask_StrAIberryHomeTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61EC56890BE7B40947D1429 /* Pods_StrAIberryHomeTask_StrAIberryHomeTaskUITests.framework */; };
+		8CF03AB3BF268C6F9322FF05 /* Pods_StrAIberryHomeTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0C08B1CECFEBF3F7033146 /* Pods_StrAIberryHomeTaskTests.framework */; };
+		E051E8C7285A30A1007697C0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E051E8C6285A30A1007697C0 /* Alamofire.framework */; };
+		E0691B06285A13E500D5937C /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0691B05285A13E500D5937C /* PhotosViewModel.swift */; };
+		E0691B08285A19CD00D5937C /* ServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0691B07285A19CD00D5937C /* ServiceApi.swift */; };
+		E0691B0A285A1D4F00D5937C /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0691B09285A1D4F00D5937C /* BaseCollectionViewCell.swift */; };
+		E0691B0C285A1D7900D5937C /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0691B0B285A1D7900D5937C /* PhotosCollectionViewCell.swift */; };
+		E07BFFA428634A0C000AAFEA /* AuthenticationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07BFFA328634A0C000AAFEA /* AuthenticationType.swift */; };
+		E07BFFA628634B07000AAFEA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07BFFA528634B07000AAFEA /* APIManager.swift */; };
+		E0827DFA2857D56A0014991A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827DF92857D56A0014991A /* AppDelegate.swift */; };
+		E0827DFC2857D56A0014991A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827DFB2857D56A0014991A /* SceneDelegate.swift */; };
+		E0827DFE2857D56A0014991A /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827DFD2857D56A0014991A /* PhotosViewController.swift */; };
+		E0827E012857D56A0014991A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0827DFF2857D56A0014991A /* Main.storyboard */; };
+		E0827E032857D56D0014991A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0827E022857D56D0014991A /* Assets.xcassets */; };
+		E0827E062857D56D0014991A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0827E042857D56D0014991A /* LaunchScreen.storyboard */; };
+		E0827E112857D56E0014991A /* StrAIberryHomeTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827E102857D56E0014991A /* StrAIberryHomeTaskTests.swift */; };
+		E0827E1B2857D56E0014991A /* StrAIberryHomeTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827E1A2857D56E0014991A /* StrAIberryHomeTaskUITests.swift */; };
+		E0827E1D2857D56E0014991A /* StrAIberryHomeTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827E1C2857D56E0014991A /* StrAIberryHomeTaskUITestsLaunchTests.swift */; };
+		E0827E332857DA640014991A /* ServiceValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827E322857DA640014991A /* ServiceValidator.swift */; };
+		E0827E352857DA7F0014991A /* MessageUtill.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827E342857DA7F0014991A /* MessageUtill.swift */; };
+		E0827E3B2857DAE70014991A /* ImageTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827E382857DAE70014991A /* ImageTools.swift */; };
+		E0827E3C2857DAE70014991A /* Domain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0827E392857DAE70014991A /* Domain.swift */; };
+		E0908988285DE46E00F63952 /* PhotosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0908987285DE46E00F63952 /* PhotosDetailViewController.swift */; };
+		E090898A285DE48A00F63952 /* PhotosDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0908989285DE48A00F63952 /* PhotosDetailViewModel.swift */; };
+		E090898C285E207B00F63952 /* PhotosProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E090898B285E207B00F63952 /* PhotosProtocols.swift */; };
+		E09DA6112858C0AF0075D244 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DA6102858C0AF0075D244 /* ServiceError.swift */; };
+		E0CDDDE6285A7A9B00F62C43 /* RequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CDDDE5285A7A9B00F62C43 /* RequestType.swift */; };
+		E0F92EED28593C6D00469090 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92EEC28593C6D00469090 /* Photo.swift */; };
+		E0F92EEF28593CAD00469090 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92EEE28593CAD00469090 /* Photos.swift */; };
+		E0F92EF128593CC700469090 /* Landing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92EF028593CC700469090 /* Landing.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0827E0D2857D56E0014991A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0827DEE2857D56A0014991A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0827DF52857D56A0014991A;
+			remoteInfo = StrAIberryHomeTask;
+		};
+		E0827E172857D56E0014991A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0827DEE2857D56A0014991A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0827DF52857D56A0014991A;
+			remoteInfo = StrAIberryHomeTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13EC4ECB8C8293261FE2F2C6 /* Pods-StrAIberryHomeTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrAIberryHomeTaskTests.release.xcconfig"; path = "Target Support Files/Pods-StrAIberryHomeTaskTests/Pods-StrAIberryHomeTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		3BEBA183A32F4A86F8851AF0 /* Pods-StrAIberryHomeTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrAIberryHomeTask.debug.xcconfig"; path = "Target Support Files/Pods-StrAIberryHomeTask/Pods-StrAIberryHomeTask.debug.xcconfig"; sourceTree = "<group>"; };
+		4BC59116C968FA2D6A6E6C95 /* Pods-StrAIberryHomeTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrAIberryHomeTask.release.xcconfig"; path = "Target Support Files/Pods-StrAIberryHomeTask/Pods-StrAIberryHomeTask.release.xcconfig"; sourceTree = "<group>"; };
+		6EFDBA9E3EFFB594932A9375 /* Pods_StrAIberryHomeTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrAIberryHomeTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F0C08B1CECFEBF3F7033146 /* Pods_StrAIberryHomeTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrAIberryHomeTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F1FB341969A5757BB6D269F /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B18EB5C7F5A7C6E8D67E3510 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE5E9C8C0F5B98B1FFB3E2C2 /* Pods-StrAIberryHomeTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StrAIberryHomeTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-StrAIberryHomeTaskTests/Pods-StrAIberryHomeTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E051E8C6285A30A1007697C0 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0691B05285A13E500D5937C /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
+		E0691B07285A19CD00D5937C /* ServiceApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceApi.swift; sourceTree = "<group>"; };
+		E0691B09285A1D4F00D5937C /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0691B0B285A1D7900D5937C /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		E07BFFA328634A0C000AAFEA /* AuthenticationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationType.swift; sourceTree = "<group>"; };
+		E07BFFA528634B07000AAFEA /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E0827DF62857D56A0014991A /* StrAIberryHomeTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrAIberryHomeTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0827DF92857D56A0014991A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0827DFB2857D56A0014991A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E0827DFD2857D56A0014991A /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		E0827E002857D56A0014991A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0827E022857D56D0014991A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0827E052857D56D0014991A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0827E072857D56D0014991A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0827E0C2857D56E0014991A /* StrAIberryHomeTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrAIberryHomeTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0827E102857D56E0014991A /* StrAIberryHomeTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrAIberryHomeTaskTests.swift; sourceTree = "<group>"; };
+		E0827E162857D56E0014991A /* StrAIberryHomeTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrAIberryHomeTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0827E1A2857D56E0014991A /* StrAIberryHomeTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrAIberryHomeTaskUITests.swift; sourceTree = "<group>"; };
+		E0827E1C2857D56E0014991A /* StrAIberryHomeTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrAIberryHomeTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E0827E322857DA640014991A /* ServiceValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceValidator.swift; sourceTree = "<group>"; };
+		E0827E342857DA7F0014991A /* MessageUtill.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageUtill.swift; sourceTree = "<group>"; };
+		E0827E382857DAE70014991A /* ImageTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTools.swift; sourceTree = "<group>"; };
+		E0827E392857DAE70014991A /* Domain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Domain.swift; sourceTree = "<group>"; };
+		E0908987285DE46E00F63952 /* PhotosDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDetailViewController.swift; sourceTree = "<group>"; };
+		E0908989285DE48A00F63952 /* PhotosDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDetailViewModel.swift; sourceTree = "<group>"; };
+		E090898B285E207B00F63952 /* PhotosProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosProtocols.swift; sourceTree = "<group>"; };
+		E09DA6102858C0AF0075D244 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		E0CDDDE5285A7A9B00F62C43 /* RequestType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestType.swift; sourceTree = "<group>"; };
+		E0F92EEC28593C6D00469090 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		E0F92EEE28593CAD00469090 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		E0F92EF028593CC700469090 /* Landing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landing.swift; sourceTree = "<group>"; };
+		E61EC56890BE7B40947D1429 /* Pods_StrAIberryHomeTask_StrAIberryHomeTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StrAIberryHomeTask_StrAIberryHomeTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0827DF32857D56A0014991A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E051E8C7285A30A1007697C0 /* Alamofire.framework in Frameworks */,
+				0349AB952F5BCA9523FF82D2 /* Pods_StrAIberryHomeTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0827E092857D56E0014991A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF03AB3BF268C6F9322FF05 /* Pods_StrAIberryHomeTaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0827E132857D56E0014991A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83184B225D07B416F7EA63F0 /* Pods_StrAIberryHomeTask_StrAIberryHomeTaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5064DEFEC68331ED1A1A34 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BEBA183A32F4A86F8851AF0 /* Pods-StrAIberryHomeTask.debug.xcconfig */,
+				4BC59116C968FA2D6A6E6C95 /* Pods-StrAIberryHomeTask.release.xcconfig */,
+				B18EB5C7F5A7C6E8D67E3510 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig */,
+				9F1FB341969A5757BB6D269F /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig */,
+				BE5E9C8C0F5B98B1FFB3E2C2 /* Pods-StrAIberryHomeTaskTests.debug.xcconfig */,
+				13EC4ECB8C8293261FE2F2C6 /* Pods-StrAIberryHomeTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CCF3A2F72F0133CD5D3126A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E051E8C6285A30A1007697C0 /* Alamofire.framework */,
+				6EFDBA9E3EFFB594932A9375 /* Pods_StrAIberryHomeTask.framework */,
+				E61EC56890BE7B40947D1429 /* Pods_StrAIberryHomeTask_StrAIberryHomeTaskUITests.framework */,
+				6F0C08B1CECFEBF3F7033146 /* Pods_StrAIberryHomeTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0827DED2857D56A0014991A = {
+			isa = PBXGroup;
+			children = (
+				E0827DF82857D56A0014991A /* StrAIberryHomeTask */,
+				E0827E0F2857D56E0014991A /* StrAIberryHomeTaskTests */,
+				E0827E192857D56E0014991A /* StrAIberryHomeTaskUITests */,
+				E0827DF72857D56A0014991A /* Products */,
+				AF5064DEFEC68331ED1A1A34 /* Pods */,
+				CCF3A2F72F0133CD5D3126A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0827DF72857D56A0014991A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0827DF62857D56A0014991A /* StrAIberryHomeTask.app */,
+				E0827E0C2857D56E0014991A /* StrAIberryHomeTaskTests.xctest */,
+				E0827E162857D56E0014991A /* StrAIberryHomeTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0827DF82857D56A0014991A /* StrAIberryHomeTask */ = {
+			isa = PBXGroup;
+			children = (
+				E0827E2E2857D9C80014991A /* ViewModels */,
+				E0827E2A2857D94C0014991A /* Common */,
+				E0827E292857D93D0014991A /* Views */,
+				E0827DF92857D56A0014991A /* AppDelegate.swift */,
+				E0827DFB2857D56A0014991A /* SceneDelegate.swift */,
+				E0827DFF2857D56A0014991A /* Main.storyboard */,
+				E0827E022857D56D0014991A /* Assets.xcassets */,
+				E0827E042857D56D0014991A /* LaunchScreen.storyboard */,
+				E0827E072857D56D0014991A /* Info.plist */,
+			);
+			path = StrAIberryHomeTask;
+			sourceTree = "<group>";
+		};
+		E0827E0F2857D56E0014991A /* StrAIberryHomeTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0827E102857D56E0014991A /* StrAIberryHomeTaskTests.swift */,
+			);
+			path = StrAIberryHomeTaskTests;
+			sourceTree = "<group>";
+		};
+		E0827E192857D56E0014991A /* StrAIberryHomeTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0827E1A2857D56E0014991A /* StrAIberryHomeTaskUITests.swift */,
+				E0827E1C2857D56E0014991A /* StrAIberryHomeTaskUITestsLaunchTests.swift */,
+			);
+			path = StrAIberryHomeTaskUITests;
+			sourceTree = "<group>";
+		};
+		E0827E292857D93D0014991A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0827E3E2857DB3E0014991A /* CollectionViewCells */,
+				E0827E3D2857DB0C0014991A /* Extenstion */,
+				E0827E2F2857D9E00014991A /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E0827E2A2857D94C0014991A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E0827E452857DBE00014991A /* Services */,
+				E0827E362857DAE70014991A /* Utill */,
+				E0827E2B2857D9940014991A /* MessageUtill */,
+				E0827E2D2857D9BA0014991A /* Response */,
+				E0827E312857DA200014991A /* Enums */,
+				E0827E302857DA100014991A /* Models */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E0827E2B2857D9940014991A /* MessageUtill */ = {
+			isa = PBXGroup;
+			children = (
+				E0827E342857DA7F0014991A /* MessageUtill.swift */,
+			);
+			path = MessageUtill;
+			sourceTree = "<group>";
+		};
+		E0827E2D2857D9BA0014991A /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				E0827E322857DA640014991A /* ServiceValidator.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		E0827E2E2857D9C80014991A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E090898B285E207B00F63952 /* PhotosProtocols.swift */,
+				E0691B05285A13E500D5937C /* PhotosViewModel.swift */,
+				E0908989285DE48A00F63952 /* PhotosDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E0827E2F2857D9E00014991A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E0827DFD2857D56A0014991A /* PhotosViewController.swift */,
+				E0908987285DE46E00F63952 /* PhotosDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E0827E302857DA100014991A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0F92EEC28593C6D00469090 /* Photo.swift */,
+				E0F92EEE28593CAD00469090 /* Photos.swift */,
+				E0F92EF028593CC700469090 /* Landing.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E0827E312857DA200014991A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				E0CDDDE5285A7A9B00F62C43 /* RequestType.swift */,
+				E07BFFA328634A0C000AAFEA /* AuthenticationType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		E0827E362857DAE70014991A /* Utill */ = {
+			isa = PBXGroup;
+			children = (
+				E0827E392857DAE70014991A /* Domain.swift */,
+			);
+			path = Utill;
+			sourceTree = "<group>";
+		};
+		E0827E3D2857DB0C0014991A /* Extenstion */ = {
+			isa = PBXGroup;
+			children = (
+				E0827E382857DAE70014991A /* ImageTools.swift */,
+			);
+			path = Extenstion;
+			sourceTree = "<group>";
+		};
+		E0827E3E2857DB3E0014991A /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				E0691B09285A1D4F00D5937C /* BaseCollectionViewCell.swift */,
+				E0691B0B285A1D7900D5937C /* PhotosCollectionViewCell.swift */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		E0827E452857DBE00014991A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E0691B07285A19CD00D5937C /* ServiceApi.swift */,
+				E09DA6102858C0AF0075D244 /* ServiceError.swift */,
+				E07BFFA528634B07000AAFEA /* APIManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0827DF52857D56A0014991A /* StrAIberryHomeTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0827E202857D56E0014991A /* Build configuration list for PBXNativeTarget "StrAIberryHomeTask" */;
+			buildPhases = (
+				E64BD1AF63A87E959F7BF0E0 /* [CP] Check Pods Manifest.lock */,
+				E0827DF22857D56A0014991A /* Sources */,
+				E0827DF32857D56A0014991A /* Frameworks */,
+				E0827DF42857D56A0014991A /* Resources */,
+				7821E3261B32AF67EECE54A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StrAIberryHomeTask;
+			productName = StrAIberryHomeTask;
+			productReference = E0827DF62857D56A0014991A /* StrAIberryHomeTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0827E0B2857D56E0014991A /* StrAIberryHomeTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0827E232857D56E0014991A /* Build configuration list for PBXNativeTarget "StrAIberryHomeTaskTests" */;
+			buildPhases = (
+				710286611EB16859B66F8E68 /* [CP] Check Pods Manifest.lock */,
+				E0827E082857D56E0014991A /* Sources */,
+				E0827E092857D56E0014991A /* Frameworks */,
+				E0827E0A2857D56E0014991A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0827E0E2857D56E0014991A /* PBXTargetDependency */,
+			);
+			name = StrAIberryHomeTaskTests;
+			productName = StrAIberryHomeTaskTests;
+			productReference = E0827E0C2857D56E0014991A /* StrAIberryHomeTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0827E152857D56E0014991A /* StrAIberryHomeTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0827E262857D56E0014991A /* Build configuration list for PBXNativeTarget "StrAIberryHomeTaskUITests" */;
+			buildPhases = (
+				5F3B01FC59BCDEA435B3D098 /* [CP] Check Pods Manifest.lock */,
+				E0827E122857D56E0014991A /* Sources */,
+				E0827E132857D56E0014991A /* Frameworks */,
+				E0827E142857D56E0014991A /* Resources */,
+				3719D007452755A69943A563 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0827E182857D56E0014991A /* PBXTargetDependency */,
+			);
+			name = StrAIberryHomeTaskUITests;
+			productName = StrAIberryHomeTaskUITests;
+			productReference = E0827E162857D56E0014991A /* StrAIberryHomeTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0827DEE2857D56A0014991A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					E0827DF52857D56A0014991A = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					E0827E0B2857D56E0014991A = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = E0827DF52857D56A0014991A;
+					};
+					E0827E152857D56E0014991A = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = E0827DF52857D56A0014991A;
+					};
+				};
+			};
+			buildConfigurationList = E0827DF12857D56A0014991A /* Build configuration list for PBXProject "StrAIberryHomeTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0827DED2857D56A0014991A;
+			productRefGroup = E0827DF72857D56A0014991A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0827DF52857D56A0014991A /* StrAIberryHomeTask */,
+				E0827E0B2857D56E0014991A /* StrAIberryHomeTaskTests */,
+				E0827E152857D56E0014991A /* StrAIberryHomeTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0827DF42857D56A0014991A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0827E062857D56D0014991A /* LaunchScreen.storyboard in Resources */,
+				E0827E032857D56D0014991A /* Assets.xcassets in Resources */,
+				E0827E012857D56A0014991A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0827E0A2857D56E0014991A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0827E142857D56E0014991A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3719D007452755A69943A563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3B01FC59BCDEA435B3D098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		710286611EB16859B66F8E68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrAIberryHomeTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7821E3261B32AF67EECE54A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StrAIberryHomeTask/Pods-StrAIberryHomeTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StrAIberryHomeTask/Pods-StrAIberryHomeTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StrAIberryHomeTask/Pods-StrAIberryHomeTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E64BD1AF63A87E959F7BF0E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StrAIberryHomeTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0827DF22857D56A0014991A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09DA6112858C0AF0075D244 /* ServiceError.swift in Sources */,
+				E0691B0A285A1D4F00D5937C /* BaseCollectionViewCell.swift in Sources */,
+				E0827E332857DA640014991A /* ServiceValidator.swift in Sources */,
+				E0827DFE2857D56A0014991A /* PhotosViewController.swift in Sources */,
+				E0F92EF128593CC700469090 /* Landing.swift in Sources */,
+				E0F92EED28593C6D00469090 /* Photo.swift in Sources */,
+				E07BFFA628634B07000AAFEA /* APIManager.swift in Sources */,
+				E0908988285DE46E00F63952 /* PhotosDetailViewController.swift in Sources */,
+				E0691B08285A19CD00D5937C /* ServiceApi.swift in Sources */,
+				E0CDDDE6285A7A9B00F62C43 /* RequestType.swift in Sources */,
+				E0827E3B2857DAE70014991A /* ImageTools.swift in Sources */,
+				E0827DFA2857D56A0014991A /* AppDelegate.swift in Sources */,
+				E0827DFC2857D56A0014991A /* SceneDelegate.swift in Sources */,
+				E0827E352857DA7F0014991A /* MessageUtill.swift in Sources */,
+				E07BFFA428634A0C000AAFEA /* AuthenticationType.swift in Sources */,
+				E0691B0C285A1D7900D5937C /* PhotosCollectionViewCell.swift in Sources */,
+				E0691B06285A13E500D5937C /* PhotosViewModel.swift in Sources */,
+				E090898C285E207B00F63952 /* PhotosProtocols.swift in Sources */,
+				E0F92EEF28593CAD00469090 /* Photos.swift in Sources */,
+				E090898A285DE48A00F63952 /* PhotosDetailViewModel.swift in Sources */,
+				E0827E3C2857DAE70014991A /* Domain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0827E082857D56E0014991A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0827E112857D56E0014991A /* StrAIberryHomeTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0827E122857D56E0014991A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0827E1B2857D56E0014991A /* StrAIberryHomeTaskUITests.swift in Sources */,
+				E0827E1D2857D56E0014991A /* StrAIberryHomeTaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0827E0E2857D56E0014991A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0827DF52857D56A0014991A /* StrAIberryHomeTask */;
+			targetProxy = E0827E0D2857D56E0014991A /* PBXContainerItemProxy */;
+		};
+		E0827E182857D56E0014991A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0827DF52857D56A0014991A /* StrAIberryHomeTask */;
+			targetProxy = E0827E172857D56E0014991A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0827DFF2857D56A0014991A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0827E002857D56A0014991A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0827E042857D56D0014991A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0827E052857D56D0014991A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0827E1E2857D56E0014991A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0827E1F2857D56E0014991A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0827E212857D56E0014991A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BEBA183A32F4A86F8851AF0 /* Pods-StrAIberryHomeTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8R7GTJ9UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StrAIberryHomeTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StrAIberry.HomeTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0827E222857D56E0014991A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC59116C968FA2D6A6E6C95 /* Pods-StrAIberryHomeTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8R7GTJ9UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StrAIberryHomeTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = StrAIberry.HomeTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0827E242857D56E0014991A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE5E9C8C0F5B98B1FFB3E2C2 /* Pods-StrAIberryHomeTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8R7GTJ9UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wallapop.StrAIberryHomeTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrAIberryHomeTask.app/StrAIberryHomeTask";
+			};
+			name = Debug;
+		};
+		E0827E252857D56E0014991A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13EC4ECB8C8293261FE2F2C6 /* Pods-StrAIberryHomeTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8R7GTJ9UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wallapop.StrAIberryHomeTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StrAIberryHomeTask.app/StrAIberryHomeTask";
+			};
+			name = Release;
+		};
+		E0827E272857D56E0014991A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B18EB5C7F5A7C6E8D67E3510 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8R7GTJ9UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wallapop.StrAIberryHomeTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StrAIberryHomeTask;
+			};
+			name = Debug;
+		};
+		E0827E282857D56E0014991A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1FB341969A5757BB6D269F /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8R7GTJ9UH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wallapop.StrAIberryHomeTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StrAIberryHomeTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0827DF12857D56A0014991A /* Build configuration list for PBXProject "StrAIberryHomeTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0827E1E2857D56E0014991A /* Debug */,
+				E0827E1F2857D56E0014991A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0827E202857D56E0014991A /* Build configuration list for PBXNativeTarget "StrAIberryHomeTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0827E212857D56E0014991A /* Debug */,
+				E0827E222857D56E0014991A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0827E232857D56E0014991A /* Build configuration list for PBXNativeTarget "StrAIberryHomeTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0827E242857D56E0014991A /* Debug */,
+				E0827E252857D56E0014991A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0827E262857D56E0014991A /* Build configuration list for PBXNativeTarget "StrAIberryHomeTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0827E272857D56E0014991A /* Debug */,
+				E0827E282857D56E0014991A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0827DEE2857D56A0014991A /* Project object */;
+}

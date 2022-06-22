@@ -1,0 +1,21 @@
+
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Select Xcode
+      run: sudo xcode-select -switch /Applications/Xcode_13.2.app
+
+    - name: Build and test
+      run: xcodebuild \test \-project StrAIberryHomeTask.xcodeproj -scheme StrAIberryHomeTask -destination 'platform=iOS Simulator,name=iPhone 13'

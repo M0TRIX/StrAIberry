@@ -354,6 +354,7 @@
 				E0827E082857D56E0014991A /* Sources */,
 				E0827E092857D56E0014991A /* Frameworks */,
 				E0827E0A2857D56E0014991A /* Resources */,
+				1B2AC64CC69AB0B560F8FD23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -456,6 +457,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1B2AC64CC69AB0B560F8FD23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StrAIberryHomeTaskTests/Pods-StrAIberryHomeTaskTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StrAIberryHomeTaskTests/Pods-StrAIberryHomeTaskTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StrAIberryHomeTaskTests/Pods-StrAIberryHomeTaskTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3719D007452755A69943A563 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

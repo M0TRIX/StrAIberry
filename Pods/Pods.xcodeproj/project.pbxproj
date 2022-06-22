@@ -15,18 +15,18 @@
 		1EE44196E7BCE57AD96A2C751651EF40 /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF1F67D4470AC46B80B387ACC74592E /* AlamofireExtended.swift */; };
 		2CBE3651CA006E19F5D64A2DE9B9A028 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCDA57764A8E03532C6B4955E87CDD8F /* CachedResponseHandler.swift */; };
 		2CCD13099063CD560E3067BD132914FA /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1774BF767AC3195D750B0871A8FCDFD2 /* Notifications.swift */; };
+		33542EED52D6686C79F2CF68DE1B9865 /* Pods-StrAIberryHomeTaskTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71080555341ACB8008EFFA86E5F4B040 /* Pods-StrAIberryHomeTaskTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33A7D0F2D03004CE256A75E03DF33C70 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D19944393970C1F09CDC2904AD40A95 /* RetryPolicy.swift */; };
 		3C4059621E23842C19D4EB5D35B41989 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F0E367AD0EFC79467D657D126B9FBD /* Validation.swift */; };
 		46A64A43AFA057B6B63C8F0C12F509B4 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42D611F243BC3328826FE250D806EC26 /* Combine.swift */; };
-		4AC09215659A6ADF4B2967F604C54259 /* Pods-StrAIberryHomeTaskTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C6A3EB77DD3EAA65DDDB1E5DE760752 /* Pods-StrAIberryHomeTaskTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5597827EB00CDB236C1209162FDA21F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
 		55AABB1FB38F61A3369ACC555FF3046D /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F537E69AFE9E127B99581572E13B3DB5 /* Alamofire-dummy.m */; };
-		64DE775FBC6DD40F4052B0DDA532EA1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
 		68FB2DCB4C77DBCAF9A6037E470F2BDE /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD249F0D0A2E91B343CC78CFEEDBA5 /* ParameterEncoding.swift */; };
 		7483E5327027263F7E4B94A2997191C4 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D0A888B6B006A1A7EEB01E95E4D87F /* AuthenticationInterceptor.swift */; };
 		75966A9262648D4647D764E3E76BC6AC /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8637848096C1E040096D350A02F8E944 /* Response.swift */; };
+		7664D4C97D0CAE2126733846BD9D9871 /* Pods-StrAIberryHomeTaskTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 875BFCC9250ED4685C1DD0F9566FB0AE /* Pods-StrAIberryHomeTaskTests-dummy.m */; };
 		7930C94414B4C661867AC4FBE82E996C /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9AD930B7FD9D7787669151B33CC50A /* URLEncodedFormEncoder.swift */; };
-		79F7947EB8BC634AF1DB045FE766DA81 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A93A7341BD36A6BDB7DD162117EE0E44 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-dummy.m */; };
+		79F7947EB8BC634AF1DB045FE766DA81 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3015CEA975B68392D14AA7707D1D914F /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-dummy.m */; };
 		7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
 		7E02F5B62BE00E97847DF549FFED2490 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182033E9A6905A038E4EBCEF9C9F45C0 /* HTTPHeaders.swift */; };
 		7F1BB526AAE3ECDCE90127D9D0E10261 /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9429E09ACA40025B318451DB5BBD5429 /* StringEncoding+Alamofire.swift */; };
@@ -37,20 +37,20 @@
 		8D75FC8D7476C9674234F39F1A820D8C /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423DDAB27DA675FAD3F4CEFD00A0087 /* URLConvertible+URLRequestConvertible.swift */; };
 		99D058E53EFEE3AC4857CDE3DBA5C004 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0F9CBC87264EB1B5B841925808649D /* ParameterEncoder.swift */; };
 		9C9030DEDB0DF955B16FE08C50892D57 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55B19C6B7FFB66485714B5DE544E4FC /* Concurrency.swift */; };
-		A16C41EED34FB2228C96CEC2819C6BD8 /* Pods-StrAIberryHomeTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94EBE81FCAEAB97C138BEEC0A3A94CA9 /* Pods-StrAIberryHomeTask-dummy.m */; };
+		A16C41EED34FB2228C96CEC2819C6BD8 /* Pods-StrAIberryHomeTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B7260C07528C357BD62003EC2FD44B2 /* Pods-StrAIberryHomeTask-dummy.m */; };
 		A29100AA1876DDEFF6F54694A51FDB0E /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B41CCCDFCF0C04AF8C2DD34A7D594B /* NetworkReachabilityManager.swift */; };
 		A53BDE589BDD6483F3EEDCE5EA1DCCD3 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */; };
 		B3658C29BBDE1033F6269A92E612CB30 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B49B6E385714464DB6F39C69CDCF3AD /* Request.swift */; };
 		B704B198B9B520D449260877E300D821 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717700B23478BFC9261269EEC9FABE6E /* ServerTrustEvaluation.swift */; };
+		B711AB4770ED77BF2764EE5D87070279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
 		BC0ECA8F22DEDE8886E189CD0EAA1197 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F89094F10FCB5CD6FAFD56DF1BE1D1 /* URLRequest+Alamofire.swift */; };
-		BC900DEF63732E40F3267D0A39971A67 /* Pods-StrAIberryHomeTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D30788D3E24DDB00A66742295B0C7DBC /* Pods-StrAIberryHomeTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5D80EBBF7742720E2C84554AE37F0DE /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F62B80E227670B349D201EFC7239287 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC900DEF63732E40F3267D0A39971A67 /* Pods-StrAIberryHomeTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 295A5D08D5ABB37D6727B6871A2E6BCF /* Pods-StrAIberryHomeTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5D80EBBF7742720E2C84554AE37F0DE /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 387B3016CE364092DAF1A2A1E95D2B01 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEBFFEED65D877702B2F36102528CF6D /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FEA7D0ABAF694A3F75736158344A91 /* EventMonitor.swift */; };
 		D0EA90FBF83350C49E6EF6C8A98D6F00 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91762C69C08629CBFD921AEBACE63AED /* AFError.swift */; };
 		D6B4751CED01D53E4A1B6A571AAA2F83 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22772149E6EB9A7609B1C3A69CA7B4F /* HTTPMethod.swift */; };
 		DA34899BEF0668D76CBCE8C4CE47B97B /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E761F63EACA04B9944E3B8D8CDAF64C /* RequestTaskMap.swift */; };
 		DD902FE8D6824681C929D028655AE121 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF0A0974AB3647E46E265B59FAFE7DC /* RequestInterceptor.swift */; };
-		DFBD3A4E39AB23F68258B7E57FB3C49D /* Pods-StrAIberryHomeTaskTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14065F5C2F11912E2103B10F26C53315 /* Pods-StrAIberryHomeTaskTests-dummy.m */; };
 		E536FB40C0162B23BF2FCC17B94C1D63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
 		E54654D504A42C24F284A68F87F7671D /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD27E56025A1A7F604285792B21A6B1 /* OperationQueue+Alamofire.swift */; };
 		E9B4C89E7EB3B27D46AFCA452C3D426F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DFCB8FA58015D2F0126EFB683CD108 /* MultipartUpload.swift */; };
@@ -59,19 +59,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		62CC77B0D2108D2CDD0424AF02EAD26E /* PBXContainerItemProxy */ = {
+		055D2322A65F53CBD382B79B8B70D7A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		88F55D3AD96ADDD352AA50D1DF949FAA /* PBXContainerItemProxy */ = {
+		62CC77B0D2108D2CDD0424AF02EAD26E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3FA983A401905701FC7CAA7879E2B365;
-			remoteInfo = "Pods-StrAIberryHomeTask";
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
 		};
 		D3D39B46BE60C75E0D5DD95BD15DB5FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -80,102 +80,110 @@
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
+		F33266ED0F9E96E87E4DB28CDFB34C32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FA983A401905701FC7CAA7879E2B365;
+			remoteInfo = "Pods-StrAIberryHomeTask";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02F0E367AD0EFC79467D657D126B9FBD /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		08E5A4E2C6C8BD3780076299F191ED99 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0A3EB6508561F9676FE95486B422B72D /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		14065F5C2F11912E2103B10F26C53315 /* Pods-StrAIberryHomeTaskTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StrAIberryHomeTaskTests-dummy.m"; sourceTree = "<group>"; };
+		0F98323AC589A88906D61D965289A450 /* Pods-StrAIberryHomeTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrAIberryHomeTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1072D844BD672A34B14FBBA30325AECF /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.modulemap"; sourceTree = "<group>"; };
 		15D0A888B6B006A1A7EEB01E95E4D87F /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		1774BF767AC3195D750B0871A8FCDFD2 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		182033E9A6905A038E4EBCEF9C9F45C0 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
 		19B9DC57828C893A0DBC04D18ECCE398 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		1B312010474E7D31073C54053B6D4309 /* Pods-StrAIberryHomeTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StrAIberryHomeTask.modulemap"; sourceTree = "<group>"; };
-		1F4C537D46981DFD27D9EE5B1FD7F1FB /* Pods-StrAIberryHomeTaskTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrAIberryHomeTaskTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		213C5511EECDA03A625B52553FBF3068 /* Pods-StrAIberryHomeTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrAIberryHomeTask.release.xcconfig"; sourceTree = "<group>"; };
+		2231E8E5A230E217078A83368CA1BECB /* Pods-StrAIberryHomeTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StrAIberryHomeTask-acknowledgements.markdown"; sourceTree = "<group>"; };
 		225FD0CEAFAFDDDA26ECA834E8734254 /* Pods-StrAIberryHomeTaskTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StrAIberryHomeTaskTests"; path = Pods_StrAIberryHomeTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		232AEA81993A782D036395A7E76B0791 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		295A5D08D5ABB37D6727B6871A2E6BCF /* Pods-StrAIberryHomeTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StrAIberryHomeTask-umbrella.h"; sourceTree = "<group>"; };
 		2A35AA383B0322648386EF285798BBD0 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		3015CEA975B68392D14AA7707D1D914F /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-dummy.m"; sourceTree = "<group>"; };
 		3423DDAB27DA675FAD3F4CEFD00A0087 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
-		3A8605A7204F13B92F2B8D98A449C5A9 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		387B3016CE364092DAF1A2A1E95D2B01 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-umbrella.h"; sourceTree = "<group>"; };
 		3B0D97FB483508422ACE73BA88223F05 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
-		3DA44FD45A20D6C95723D42FB54A4267 /* Pods-StrAIberryHomeTaskTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StrAIberryHomeTaskTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3F62B80E227670B349D201EFC7239287 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-umbrella.h"; sourceTree = "<group>"; };
 		42D611F243BC3328826FE250D806EC26 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
 		47DFCB8FA58015D2F0126EFB683CD108 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
 		4A0F9CBC87264EB1B5B841925808649D /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
-		4C6A3EB77DD3EAA65DDDB1E5DE760752 /* Pods-StrAIberryHomeTaskTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StrAIberryHomeTaskTests-umbrella.h"; sourceTree = "<group>"; };
-		4F789D6826E28690A0F341F81A2257BF /* Pods-StrAIberryHomeTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrAIberryHomeTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C1E0EC9A685C2367268CC0993586453 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C556F328017DC287C14EB5522C8C644 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-Info.plist"; sourceTree = "<group>"; };
+		4EB5DE61ED47DDD4DA9934E89AEAD29A /* Pods-StrAIberryHomeTaskTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StrAIberryHomeTaskTests.modulemap"; sourceTree = "<group>"; };
 		50AB1C24916D682028695FE189FB604A /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
 		53F89094F10FCB5CD6FAFD56DF1BE1D1 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
-		54B06DC261925A8CA22CC8C43EF7A233 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
-		58D297E7F9D210DA4C9BCC825D89E16C /* Pods-StrAIberryHomeTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrAIberryHomeTask.debug.xcconfig"; sourceTree = "<group>"; };
 		5B49B6E385714464DB6F39C69CDCF3AD /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		5C5D5F9DC071CD347AFC7130C5B036C7 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests"; path = Pods_StrAIberryHomeTask_StrAIberryHomeTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF0A0974AB3647E46E265B59FAFE7DC /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
-		5ECBFC899B68F0C9ACCD20777FC64EDE /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-Info.plist"; sourceTree = "<group>"; };
-		69BF47424D6830430406629E06BDB730 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE7335D86909A2954674D686E31C3B7 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-frameworks.sh"; sourceTree = "<group>"; };
+		617EACA168A1772B6FD743238CB53C6D /* Pods-StrAIberryHomeTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrAIberryHomeTask.debug.xcconfig"; sourceTree = "<group>"; };
+		66E921F24E213068E078529F6DDFE687 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B7260C07528C357BD62003EC2FD44B2 /* Pods-StrAIberryHomeTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StrAIberryHomeTask-dummy.m"; sourceTree = "<group>"; };
 		6D19944393970C1F09CDC2904AD40A95 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
 		6E761F63EACA04B9944E3B8D8CDAF64C /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		71080555341ACB8008EFFA86E5F4B040 /* Pods-StrAIberryHomeTaskTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StrAIberryHomeTaskTests-umbrella.h"; sourceTree = "<group>"; };
 		717700B23478BFC9261269EEC9FABE6E /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
-		7EE124F5CFB9A0E1A3FA3CF971922F55 /* Pods-StrAIberryHomeTask-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrAIberryHomeTask-Info.plist"; sourceTree = "<group>"; };
+		782A32B16B155FA1C23D248EAF31308C /* Pods-StrAIberryHomeTaskTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StrAIberryHomeTaskTests-frameworks.sh"; sourceTree = "<group>"; };
 		8637848096C1E040096D350A02F8E944 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		875BFCC9250ED4685C1DD0F9566FB0AE /* Pods-StrAIberryHomeTaskTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StrAIberryHomeTaskTests-dummy.m"; sourceTree = "<group>"; };
 		8B5171E9945557BE43DD708B176B63C4 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		8C1CE9AB5192E8247A6F8315EBFAC991 /* Pods-StrAIberryHomeTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrAIberryHomeTask.release.xcconfig"; sourceTree = "<group>"; };
 		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		9004C2E27B7F9FA32BC9B07CD98CDCE0 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		90A5FFFD609BD513F80F1E0336577DDD /* Pods-StrAIberryHomeTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrAIberryHomeTask-acknowledgements.plist"; sourceTree = "<group>"; };
 		91762C69C08629CBFD921AEBACE63AED /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		9429E09ACA40025B318451DB5BBD5429 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
-		94EBE81FCAEAB97C138BEEC0A3A94CA9 /* Pods-StrAIberryHomeTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StrAIberryHomeTask-dummy.m"; sourceTree = "<group>"; };
 		9CD27E56025A1A7F604285792B21A6B1 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD6336A966C190CA3E86E180E1D1121 /* Pods-StrAIberryHomeTask-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrAIberryHomeTask-Info.plist"; sourceTree = "<group>"; };
 		A0FEA7D0ABAF694A3F75736158344A91 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		A11A89A725BD77727B624CCA51D5AA34 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A22772149E6EB9A7609B1C3A69CA7B4F /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		A38D6B01274495BD814154CCDE745288 /* Pods-StrAIberryHomeTaskTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrAIberryHomeTaskTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A4953B7FBF888C855983463F65AC3E14 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
-		A780E692CF98E89EB59D9E72CADD7F66 /* Pods-StrAIberryHomeTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StrAIberryHomeTask-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A93A7341BD36A6BDB7DD162117EE0E44 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-dummy.m"; sourceTree = "<group>"; };
-		A96AFC16ECC4281FCEC708134F7A9F8E /* Pods-StrAIberryHomeTaskTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrAIberryHomeTaskTests-Info.plist"; sourceTree = "<group>"; };
-		A98B830384EB64A2782AC2ECC9F2646F /* Pods-StrAIberryHomeTask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StrAIberryHomeTask-frameworks.sh"; sourceTree = "<group>"; };
-		ABAF2D376CB978137BBACB8312325EE6 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-frameworks.sh"; sourceTree = "<group>"; };
-		BAF7261AC00230EA3E07B78DC6E2DFFE /* Pods-StrAIberryHomeTaskTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StrAIberryHomeTaskTests.modulemap"; sourceTree = "<group>"; };
+		B4B4C209C891D239FBAD9FB702B680B9 /* Pods-StrAIberryHomeTask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StrAIberryHomeTask-frameworks.sh"; sourceTree = "<group>"; };
+		B6FBAF1CCA8487D00B79F8EB06C02C65 /* Pods-StrAIberryHomeTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StrAIberryHomeTask.modulemap"; sourceTree = "<group>"; };
 		BDF1F67D4470AC46B80B387ACC74592E /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
 		C317CAA4F2337FF0A55F807FA1B1D2A2 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		C87D525E3ABB943E27375F86057A86CE /* Pods-StrAIberryHomeTaskTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrAIberryHomeTaskTests-Info.plist"; sourceTree = "<group>"; };
 		CCDA57764A8E03532C6B4955E87CDD8F /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
-		CD15423AB6944D42A213C8D55A727013 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.modulemap"; sourceTree = "<group>"; };
 		D0B41CCCDFCF0C04AF8C2DD34A7D594B /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		D0DD249F0D0A2E91B343CC78CFEEDBA5 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		D30788D3E24DDB00A66742295B0C7DBC /* Pods-StrAIberryHomeTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StrAIberryHomeTask-umbrella.h"; sourceTree = "<group>"; };
-		D6B41FA589A95A8D96753190531F03EB /* Pods-StrAIberryHomeTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StrAIberryHomeTask-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA63442206102DA958E0A4E575EFDC44 /* Pods-StrAIberryHomeTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrAIberryHomeTaskTests.release.xcconfig"; sourceTree = "<group>"; };
 		DAB3F4DEC660EA4E0D1518B65C6A9A91 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
 		DDEF86DB2F034B2435E33314C6B2D948 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		DE9AD930B7FD9D7787669151B33CC50A /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		E57628633C1D230EA7BE5C721583E4E7 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		E94DDBF6A330BE3D55BDBB8172D03887 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F3E303F43B8A77B1098439AA7483C11E /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		F48B653DE4B6BDEFBE9F08397CDD3CB7 /* Pods-StrAIberryHomeTaskTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StrAIberryHomeTaskTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F50DB1D7E92A6C459C927B71B8DE3F11 /* Pods-StrAIberryHomeTask */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-StrAIberryHomeTask"; path = Pods_StrAIberryHomeTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F537E69AFE9E127B99581572E13B3DB5 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		F55B19C6B7FFB66485714B5DE544E4FC /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
-		F9C377B8AFFFBDF765AE6404020E04EF /* Pods-StrAIberryHomeTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StrAIberryHomeTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FE13171346B1A07721DCCA31970B8255 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		FF784AECAB1CF4D8E63DFB863F9B8E55 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0FDA586BA90EDAD5B3EBD0B7AE1B9B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B711AB4770ED77BF2764EE5D87070279 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15DC142A7EE833251AA37FC8E2B8E01F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7B068137A8925891446203B5D3D6A4ED /* CFNetwork.framework in Frameworks */,
 				0F4037DBF307AC8058BD0A3D35C7E7E9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7B810415A8CF5436F1653DC3A71A6B48 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				64DE775FBC6DD40F4052B0DDA532EA1C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +212,40 @@
 				61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1ABDF0DB125A4A1C65DC4F7ABF73766C /* Pods-StrAIberryHomeTask */ = {
+			isa = PBXGroup;
+			children = (
+				B6FBAF1CCA8487D00B79F8EB06C02C65 /* Pods-StrAIberryHomeTask.modulemap */,
+				2231E8E5A230E217078A83368CA1BECB /* Pods-StrAIberryHomeTask-acknowledgements.markdown */,
+				90A5FFFD609BD513F80F1E0336577DDD /* Pods-StrAIberryHomeTask-acknowledgements.plist */,
+				6B7260C07528C357BD62003EC2FD44B2 /* Pods-StrAIberryHomeTask-dummy.m */,
+				B4B4C209C891D239FBAD9FB702B680B9 /* Pods-StrAIberryHomeTask-frameworks.sh */,
+				9DD6336A966C190CA3E86E180E1D1121 /* Pods-StrAIberryHomeTask-Info.plist */,
+				295A5D08D5ABB37D6727B6871A2E6BCF /* Pods-StrAIberryHomeTask-umbrella.h */,
+				617EACA168A1772B6FD743238CB53C6D /* Pods-StrAIberryHomeTask.debug.xcconfig */,
+				8C1CE9AB5192E8247A6F8315EBFAC991 /* Pods-StrAIberryHomeTask.release.xcconfig */,
+			);
+			name = "Pods-StrAIberryHomeTask";
+			path = "Target Support Files/Pods-StrAIberryHomeTask";
+			sourceTree = "<group>";
+		};
+		2391617DE2F8FD4DAC09286058CFB3A5 /* Pods-StrAIberryHomeTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				4EB5DE61ED47DDD4DA9934E89AEAD29A /* Pods-StrAIberryHomeTaskTests.modulemap */,
+				F48B653DE4B6BDEFBE9F08397CDD3CB7 /* Pods-StrAIberryHomeTaskTests-acknowledgements.markdown */,
+				A38D6B01274495BD814154CCDE745288 /* Pods-StrAIberryHomeTaskTests-acknowledgements.plist */,
+				875BFCC9250ED4685C1DD0F9566FB0AE /* Pods-StrAIberryHomeTaskTests-dummy.m */,
+				782A32B16B155FA1C23D248EAF31308C /* Pods-StrAIberryHomeTaskTests-frameworks.sh */,
+				C87D525E3ABB943E27375F86057A86CE /* Pods-StrAIberryHomeTaskTests-Info.plist */,
+				71080555341ACB8008EFFA86E5F4B040 /* Pods-StrAIberryHomeTaskTests-umbrella.h */,
+				0F98323AC589A88906D61D965289A450 /* Pods-StrAIberryHomeTaskTests.debug.xcconfig */,
+				DA63442206102DA958E0A4E575EFDC44 /* Pods-StrAIberryHomeTaskTests.release.xcconfig */,
+			);
+			name = "Pods-StrAIberryHomeTaskTests";
+			path = "Target Support Files/Pods-StrAIberryHomeTaskTests";
 			sourceTree = "<group>";
 		};
 		2B0810928A6319057A946D6BCAD4DD5E /* Support Files */ = {
@@ -241,37 +283,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		803998EF000F13B56B2722C4F7750A87 /* Pods-StrAIberryHomeTaskTests */ = {
+		87B12581355C1D8727C47865845728F0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BAF7261AC00230EA3E07B78DC6E2DFFE /* Pods-StrAIberryHomeTaskTests.modulemap */,
-				3DA44FD45A20D6C95723D42FB54A4267 /* Pods-StrAIberryHomeTaskTests-acknowledgements.markdown */,
-				1F4C537D46981DFD27D9EE5B1FD7F1FB /* Pods-StrAIberryHomeTaskTests-acknowledgements.plist */,
-				14065F5C2F11912E2103B10F26C53315 /* Pods-StrAIberryHomeTaskTests-dummy.m */,
-				A96AFC16ECC4281FCEC708134F7A9F8E /* Pods-StrAIberryHomeTaskTests-Info.plist */,
-				4C6A3EB77DD3EAA65DDDB1E5DE760752 /* Pods-StrAIberryHomeTaskTests-umbrella.h */,
-				F9C377B8AFFFBDF765AE6404020E04EF /* Pods-StrAIberryHomeTaskTests.debug.xcconfig */,
-				4F789D6826E28690A0F341F81A2257BF /* Pods-StrAIberryHomeTaskTests.release.xcconfig */,
+				1ABDF0DB125A4A1C65DC4F7ABF73766C /* Pods-StrAIberryHomeTask */,
+				9592A97E14C1CC10F2B6E796ACD17E7D /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests */,
+				2391617DE2F8FD4DAC09286058CFB3A5 /* Pods-StrAIberryHomeTaskTests */,
 			);
-			name = "Pods-StrAIberryHomeTaskTests";
-			path = "Target Support Files/Pods-StrAIberryHomeTaskTests";
-			sourceTree = "<group>";
-		};
-		84F980A22DFFB7E10CB47B8EE2E2E4C3 /* Pods-StrAIberryHomeTask */ = {
-			isa = PBXGroup;
-			children = (
-				1B312010474E7D31073C54053B6D4309 /* Pods-StrAIberryHomeTask.modulemap */,
-				A780E692CF98E89EB59D9E72CADD7F66 /* Pods-StrAIberryHomeTask-acknowledgements.markdown */,
-				D6B41FA589A95A8D96753190531F03EB /* Pods-StrAIberryHomeTask-acknowledgements.plist */,
-				94EBE81FCAEAB97C138BEEC0A3A94CA9 /* Pods-StrAIberryHomeTask-dummy.m */,
-				A98B830384EB64A2782AC2ECC9F2646F /* Pods-StrAIberryHomeTask-frameworks.sh */,
-				7EE124F5CFB9A0E1A3FA3CF971922F55 /* Pods-StrAIberryHomeTask-Info.plist */,
-				D30788D3E24DDB00A66742295B0C7DBC /* Pods-StrAIberryHomeTask-umbrella.h */,
-				58D297E7F9D210DA4C9BCC825D89E16C /* Pods-StrAIberryHomeTask.debug.xcconfig */,
-				213C5511EECDA03A625B52553FBF3068 /* Pods-StrAIberryHomeTask.release.xcconfig */,
-			);
-			name = "Pods-StrAIberryHomeTask";
-			path = "Target Support Files/Pods-StrAIberryHomeTask";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		8E167B633C802817B2BE74255F6EE178 /* Alamofire */ = {
@@ -319,39 +338,29 @@
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
+		9592A97E14C1CC10F2B6E796ACD17E7D /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1072D844BD672A34B14FBBA30325AECF /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.modulemap */,
+				A11A89A725BD77727B624CCA51D5AA34 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-acknowledgements.markdown */,
+				4C1E0EC9A685C2367268CC0993586453 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-acknowledgements.plist */,
+				3015CEA975B68392D14AA7707D1D914F /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-dummy.m */,
+				5EE7335D86909A2954674D686E31C3B7 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-frameworks.sh */,
+				4C556F328017DC287C14EB5522C8C644 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-Info.plist */,
+				387B3016CE364092DAF1A2A1E95D2B01 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-umbrella.h */,
+				E94DDBF6A330BE3D55BDBB8172D03887 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig */,
+				66E921F24E213068E078529F6DDFE687 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig */,
+			);
+			name = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests";
+			path = "Target Support Files/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests";
+			sourceTree = "<group>";
+		};
 		9F4B67447122FC6BA6080EAA9B88A719 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				8E167B633C802817B2BE74255F6EE178 /* Alamofire */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		B85B7F387BD85AE8DA9292FE5DBBC857 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CD15423AB6944D42A213C8D55A727013 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.modulemap */,
-				3A8605A7204F13B92F2B8D98A449C5A9 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-acknowledgements.markdown */,
-				08E5A4E2C6C8BD3780076299F191ED99 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-acknowledgements.plist */,
-				A93A7341BD36A6BDB7DD162117EE0E44 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-dummy.m */,
-				ABAF2D376CB978137BBACB8312325EE6 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-frameworks.sh */,
-				5ECBFC899B68F0C9ACCD20777FC64EDE /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-Info.plist */,
-				3F62B80E227670B349D201EFC7239287 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests-umbrella.h */,
-				69BF47424D6830430406629E06BDB730 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig */,
-				54B06DC261925A8CA22CC8C43EF7A233 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig */,
-			);
-			name = "Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests";
-			path = "Target Support Files/Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests";
-			sourceTree = "<group>";
-		};
-		B9F8DA180D8BAF96D9B5A55B3239C9FA /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				84F980A22DFFB7E10CB47B8EE2E2E4C3 /* Pods-StrAIberryHomeTask */,
-				B85B7F387BD85AE8DA9292FE5DBBC857 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests */,
-				803998EF000F13B56B2722C4F7750A87 /* Pods-StrAIberryHomeTaskTests */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -361,7 +370,7 @@
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				9F4B67447122FC6BA6080EAA9B88A719 /* Pods */,
 				56C4725C5C42F630AAF4063F032E2E0D /* Products */,
-				B9F8DA180D8BAF96D9B5A55B3239C9FA /* Targets Support Files */,
+				87B12581355C1D8727C47865845728F0 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -392,11 +401,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		834CF9AEF680F0F01810002913E92377 /* Headers */ = {
+		9C5206EDCD33636CF206A44CFF53F510 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC09215659A6ADF4B2967F604C54259 /* Pods-StrAIberryHomeTaskTests-umbrella.h in Headers */,
+				33542EED52D6686C79F2CF68DE1B9865 /* Pods-StrAIberryHomeTaskTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,17 +452,18 @@
 		};
 		E998B372CD994AE619BC74452CCE5C35 /* Pods-StrAIberryHomeTaskTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 136D89FFDE6428CDEC7F560E1AF5EAE3 /* Build configuration list for PBXNativeTarget "Pods-StrAIberryHomeTaskTests" */;
+			buildConfigurationList = 405FF70148360244BC6D390FC9A09D14 /* Build configuration list for PBXNativeTarget "Pods-StrAIberryHomeTaskTests" */;
 			buildPhases = (
-				834CF9AEF680F0F01810002913E92377 /* Headers */,
-				84F47C9524BA9A230EE6FE484446BDFE /* Sources */,
-				7B810415A8CF5436F1653DC3A71A6B48 /* Frameworks */,
-				5122CE50569768FD4F29D5E844B9249E /* Resources */,
+				9C5206EDCD33636CF206A44CFF53F510 /* Headers */,
+				69CDDD99ACC651F8C9B3912BB652FCA7 /* Sources */,
+				0FDA586BA90EDAD5B3EBD0B7AE1B9B24 /* Frameworks */,
+				86E125555DA765E5F0A7C19C2B73780D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A13164C5F22B3649608A52058C34F09C /* PBXTargetDependency */,
+				2CC36C958D0DF3AA22C290DDDAE43576 /* PBXTargetDependency */,
+				98AD14F23F889C3FE5BFED9E3687B1F1 /* PBXTargetDependency */,
 			);
 			name = "Pods-StrAIberryHomeTaskTests";
 			productName = Pods_StrAIberryHomeTaskTests;
@@ -509,7 +519,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5122CE50569768FD4F29D5E844B9249E /* Resources */ = {
+		86E125555DA765E5F0A7C19C2B73780D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -540,19 +550,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		69CDDD99ACC651F8C9B3912BB652FCA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7664D4C97D0CAE2126733846BD9D9871 /* Pods-StrAIberryHomeTaskTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		84CB07C525BE5696A06649E6E2430AF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A16C41EED34FB2228C96CEC2819C6BD8 /* Pods-StrAIberryHomeTask-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84F47C9524BA9A230EE6FE484446BDFE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFBD3A4E39AB23F68258B7E57FB3C49D /* Pods-StrAIberryHomeTaskTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,11 +627,17 @@
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
 			targetProxy = D3D39B46BE60C75E0D5DD95BD15DB5FD /* PBXContainerItemProxy */;
 		};
-		A13164C5F22B3649608A52058C34F09C /* PBXTargetDependency */ = {
+		2CC36C958D0DF3AA22C290DDDAE43576 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 055D2322A65F53CBD382B79B8B70D7A8 /* PBXContainerItemProxy */;
+		};
+		98AD14F23F889C3FE5BFED9E3687B1F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-StrAIberryHomeTask";
 			target = 3FA983A401905701FC7CAA7879E2B365 /* Pods-StrAIberryHomeTask */;
-			targetProxy = 88F55D3AD96ADDD352AA50D1DF949FAA /* PBXContainerItemProxy */;
+			targetProxy = F33266ED0F9E96E87E4DB28CDFB34C32 /* PBXContainerItemProxy */;
 		};
 		ABBE827665ACC225564E5309F8FD816B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -634,7 +650,7 @@
 /* Begin XCBuildConfiguration section */
 		08E4699B8FB76FB052B41053BE48E896 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58D297E7F9D210DA4C9BCC825D89E16C /* Pods-StrAIberryHomeTask.debug.xcconfig */;
+			baseConfigurationReference = 617EACA168A1772B6FD743238CB53C6D /* Pods-StrAIberryHomeTask.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -668,6 +684,44 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		264DFA4FE28798CFB83BF7AA10005E5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA63442206102DA958E0A4E575EFDC44 /* Pods-StrAIberryHomeTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StrAIberryHomeTaskTests/Pods-StrAIberryHomeTaskTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StrAIberryHomeTaskTests/Pods-StrAIberryHomeTaskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -735,47 +789,9 @@
 			};
 			name = Debug;
 		};
-		578DE5A11E706E6964237F60B74F0481 /* Release */ = {
+		55BBE5394680847E7B88AF304A19D88E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 213C5511EECDA03A625B52553FBF3068 /* Pods-StrAIberryHomeTask.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StrAIberryHomeTask/Pods-StrAIberryHomeTask-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StrAIberryHomeTask/Pods-StrAIberryHomeTask.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		75B0B2B2E1397A1D29A0366997CF36F9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F789D6826E28690A0F341F81A2257BF /* Pods-StrAIberryHomeTaskTests.release.xcconfig */;
+			baseConfigurationReference = 0F98323AC589A88906D61D965289A450 /* Pods-StrAIberryHomeTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -797,6 +813,43 @@
 				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-StrAIberryHomeTaskTests/Pods-StrAIberryHomeTaskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		578DE5A11E706E6964237F60B74F0481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C1CE9AB5192E8247A6F8315EBFAC991 /* Pods-StrAIberryHomeTask.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StrAIberryHomeTask/Pods-StrAIberryHomeTask-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StrAIberryHomeTask/Pods-StrAIberryHomeTask.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -884,7 +937,7 @@
 		};
 		B7608089136FAFE3CD4AEEFB03890550 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54B06DC261925A8CA22CC8C43EF7A233 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig */;
+			baseConfigurationReference = 66E921F24E213068E078529F6DDFE687 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -982,46 +1035,9 @@
 			};
 			name = Release;
 		};
-		DC01B67E01EC85AB9A413560431BEAE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9C377B8AFFFBDF765AE6404020E04EF /* Pods-StrAIberryHomeTaskTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StrAIberryHomeTaskTests/Pods-StrAIberryHomeTaskTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StrAIberryHomeTaskTests/Pods-StrAIberryHomeTaskTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		E04A9D7BBA3CC3DAE54FCD8E17A5E30A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69BF47424D6830430406629E06BDB730 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig */;
+			baseConfigurationReference = E94DDBF6A330BE3D55BDBB8172D03887 /* Pods-StrAIberryHomeTask-StrAIberryHomeTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1059,11 +1075,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		136D89FFDE6428CDEC7F560E1AF5EAE3 /* Build configuration list for PBXNativeTarget "Pods-StrAIberryHomeTaskTests" */ = {
+		405FF70148360244BC6D390FC9A09D14 /* Build configuration list for PBXNativeTarget "Pods-StrAIberryHomeTaskTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC01B67E01EC85AB9A413560431BEAE9 /* Debug */,
-				75B0B2B2E1397A1D29A0366997CF36F9 /* Release */,
+				55BBE5394680847E7B88AF304A19D88E /* Debug */,
+				264DFA4FE28798CFB83BF7AA10005E5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

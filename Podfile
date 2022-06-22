@@ -10,6 +10,7 @@ target 'StrAIberryHomeTask' do
 
   target 'StrAIberryHomeTaskTests' do
     inherit! :search_paths
+    pod 'Alamofire', '~> 5.5'
     # Pods for testing
   end
 

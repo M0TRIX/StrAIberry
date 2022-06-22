@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import Alamofire
 @testable import StrAIberryHomeTask
 
 class CheckResponseTestCases: XCTestCase {
